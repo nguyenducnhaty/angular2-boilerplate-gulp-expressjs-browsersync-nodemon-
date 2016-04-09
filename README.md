@@ -1,4 +1,6 @@
-# smart-quiz
+# angular2-boilerplate
+
+Angular 2 boiler plate code with gulp configuration, this boiler plate code is made by reading multiple blogs and borrowed from many sites.
 
 How to Start...
 
