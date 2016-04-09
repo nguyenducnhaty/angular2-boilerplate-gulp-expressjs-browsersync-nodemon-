@@ -5,9 +5,10 @@ How to Start...
 1. Make sure you have the nodejs installed.
 2. Clone the repo:
     ```
-    git clone https://github.com/poomugam/smart-quiz.git
+    git clone https://github.com/nirmalkumar86/angular2-boilerplate-gulp-expressjs-browsersync-nodemon-.git
     
-    cd smart-quiz
+    cd angular2-boilerplate-gulp-expressjs-browsersync-nodemon-
+    
     ```
 3. Run the project.
     ```
