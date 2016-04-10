@@ -7,7 +7,7 @@ let cookieParser = require("cookie-parser");
 let bodyParser = require("body-parser");
 
 let engine = require("ejs-mate");
-let port: number = process.env.PORT || 3000;
+let port: number = process.env.PORT || 9090;
 
 let routes = require("./routes/index");
 let mockservice = require("./routes/mock");
@@ -28,14 +28,14 @@ app.set("view engine", "ejs");
 
 app.use(logger("dev"));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false })); 
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 app.use("/mock/*", mockservice);
 app.use("/*", routes);
 
-app.listen(3000, function() {
-    console.log("server started 3000 ");
+app.listen(9090, function() {
+    console.log("server started 9090 ");
 });
 
 module.exports = app;

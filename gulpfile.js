@@ -135,7 +135,7 @@ gulp.task('nodemon', ['buildBackEnd', 'injectDep','watch'], function(cb) {
 
 gulp.task('browser-sync',['nodemon'],function(){
     browserSync.init({
-        proxy: "http://localhost:3000"
+        proxy: "http://localhost:9090"
     });
 });
 
